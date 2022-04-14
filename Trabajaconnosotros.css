@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Orbitron:wght@400;600;800&display=swap');
+body{
+	background: url("images1/2fondo.jpg");
+	background-repeat: round;
+	color: turquoise;
+	font-size: 30px;
+	font-family: 'Courgette', cursive;
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+}
+
+h1{
+	background-color: black;
+	border: 5px double white;
+	border-radius: 40px;
+	margin: 15px;
+	font-size: 50px;
+	color: white;
+}
+
+div img{
+	border-radius: 50px;
+	max-width: 500px;
+}
+
+div iframe{
+	max-width: 100%;
+	border-radius: 30px;
+}
+
+p{
+	font-size: 30px;
+	text-align: left;
+	max-width: 100%;
+	padding: 50px;
+	color:black;
+	background-color: white;
+	border-radius: 50px;
+	margin: 50px;
+}
+
+footer a img{
+	max-width: 50px;
+	padding: 5px;
+	background-color: white;
+}
+
+.fin{
+	text-align: center;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  	body{
+		background: url("4fondo.jpg");
+		background-repeat: round;
+		color: turquoise;
+		font-size: 30px;
+		font-family: 'Courgette', cursive;
+		font-family: 'Orbitron', sans-serif;
+		text-align: center;
+	}
+
+	h1{	
+		background-color: black;
+		border: 5px double white;
+		border-radius: 40px;
+		margin: 15px;
+		font-size: 30px;
+		color: white;
+	}
+
+	div img{
+		border-radius: 50px;
+		max-width: 300px;
+	}
+
+	p{
+		font-size: 18px;
+		text-align: left;
+		max-width: 100%;
+		padding: 50px;
+		color:black;
+		background-color: white;
+		border-radius: 50px;
+		margin: 50px;	
+	}	
+
+	footer a img{
+		max-width: 50px;
+		padding: 5px;
+		background-color: white;
+	}
+
+	.fin{
+		text-align: center;
+		padding: 10px;
+	}
+}
